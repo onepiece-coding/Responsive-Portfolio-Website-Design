@@ -58,6 +58,8 @@ Check out the full tutorial on YouTube (in Darija): [Watch Video]()
   
 - CSS3: For styling and responsive design
   
+- JavaScript: For The Interactivity
+  
 ## 🌐 Live Demo
 
 You can view a live demo of the project here: [Live Demo](https://responsive-portfolio-website-design-kappa.vercel.app/)
