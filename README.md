@@ -50,7 +50,7 @@ Welcome to the **Responsive Portfolio Website Design** project! This project dem
    
 ## 🎥 Video Tutorial
 
-Check out the full tutorial on YouTube (in Darija): [Watch Video]()
+Check out the full tutorial on YouTube (in Darija): [Watch Video](https://www.youtube.com/watch?v=Usz53Nx4-eY&list=PLYSj6xbWtkzno0p23_hQogpPJEhhWU46v)
 
 ## 🛠️ Technologies Used
 
