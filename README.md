@@ -72,7 +72,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 For any inquiries, feel free to reach out:
 
-Email: [onepiece.codingpar@gmail.com](onepiece.codingpar@gmail.com)
+Email: onepiece.codingpar@gmail.com
 
 LinkedIn: [LinkedIn Profile](https://github.com/onepiece-coding)
 
