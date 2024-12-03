@@ -74,7 +74,7 @@ For any inquiries, feel free to reach out:
 
 Email: onepiece.codingpar@gmail.com
 
-LinkedIn: [LinkedIn Profile](https://github.com/onepiece-coding)
+LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/lahcen-alhiane-0799ba303/)
 
 GitHub: [GitHub Profile](https://github.com/onepiece-coding)
 
