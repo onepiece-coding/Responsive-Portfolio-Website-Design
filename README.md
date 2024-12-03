@@ -37,13 +37,13 @@ Welcome to the **Responsive Portfolio Website Design** project! This project dem
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/YourUsername/responsive-portfolio-website.git
+  git clone https://github.com/onepiece-coding/Responsive-Portfolio-Website-Design.git
 ```
 
 2. Navigate to the project folder:
    
 ```bash
-  cd responsive-portfolio-website
+  cd Responsive-Portfolio-Website-Design
 ```
 
 3. Open index.html in your browser to view the website.
