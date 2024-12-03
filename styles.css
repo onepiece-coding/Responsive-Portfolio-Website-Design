@@ -1,0 +1,265 @@
+/* Start Global Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    background-color: #222;
+    font-family: "Poppins", sans-serif;
+}
+
+/* End Global Styles */
+
+/* Start Main Header Styles */
+
+.main-header {
+    position: relative;
+    padding: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+.header-logo span {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #007CED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+}
+
+.toggle-navbar {
+    background-color: transparent;
+    border: none;
+    font-size: 3.2rem;
+    color: #007CED;
+    cursor: pointer;
+}
+
+.navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1.6rem;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
+    transition: clip-path 0.5s;
+}
+
+.navbar.show {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.nav-link {
+    padding: 1.6rem 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #E5E5E5;
+    transition: color 0.5s;
+}
+
+/* End Main Header Styles */
+
+/* Start Hero Styles */
+
+.hero {
+    padding: 2.4rem 2.4rem 5.2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.hero-img {
+    width: 300px;
+    height: 300px;
+    border: 15px solid #444;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.first-heading {
+    margin-bottom: 1.2rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #E5E5E5;
+}
+
+.second-heading {
+    margin-bottom: 1.2rem;
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #007CED;
+}
+
+.hero-desc {
+    margin-bottom: 2.4rem;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #E5E5E5;
+}
+
+.call-to-action {
+    margin-bottom: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.call-to-action a {
+    padding: 1.2rem 2.4rem;
+    border: 2px solid #E5E5E5;
+    border-radius: 50px;
+    background-color: #444;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #E5E5E5;
+}
+
+.call-to-action a:first-child {
+    border-color: #007CED;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #E5E5E5;
+    transition: transform 0.5s,
+                color 0.5s;
+}
+
+.copyright {
+    margin-top: 5.2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #E5E5E5;
+}
+
+/* End Hero Styles */
+
+/* Media Quaries */
+
+@media screen and (hover: hover) {
+    .nav-link:hover {
+        color: #007CED;
+    }
+
+    .hero-img img:hover {
+        transform: scale(1.2);
+    }
+
+    .social-icons a:hover {
+        transform: rotate(360deg);
+        color: #007CED;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .main-header {
+        padding: 2.4rem 3.2rem;
+    }
+
+    .hero {
+        padding: 2.4rem 3.2rem 5.2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main-header {
+        padding: 2.4rem 3.6rem;
+    }
+
+    .toggle-navbar {
+        display: none;
+    }
+
+    .navbar {
+        position: static;
+        width: fit-content;
+        padding: 0;
+        background-color: transparent;
+        flex-direction: row;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    }
+
+    .nav-link {
+        padding: 1.6rem;
+    }
+
+    .hero {
+        padding: 2.4rem 3.6rem 5.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-header {
+        padding: 2.4rem 6.4rem;
+    }
+
+    .hero {
+        padding: 5.2rem 4.8rem;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .hero-content {
+        text-align: left;
+    }
+
+    .call-to-action,
+    .social-icons {
+        justify-content: flex-start;
+    }
+}
