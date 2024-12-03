@@ -21,11 +21,13 @@ Welcome to the **Responsive Portfolio Website Design** project! This project dem
 ## 📂 Project Structure
 
 ```plaintext
-  ├── index.html       # Main HTML file
+  ├── index.html        # Main HTML file
 
-  ├── style.css        # Main CSS file
+  ├── styles.css        # Main CSS file
 
-  ├── images/          # Folder for images
+  ├── scripts.js        # Main JavaScript file
+
+  ├── images/           # Folder for images
 
   └── README.md        # Project documentation
 ```
